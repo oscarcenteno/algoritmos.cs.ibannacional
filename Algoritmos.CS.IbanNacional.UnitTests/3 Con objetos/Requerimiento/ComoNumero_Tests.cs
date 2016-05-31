@@ -1,4 +1,4 @@
-﻿using ComoObjetos;
+﻿using ConObjetos;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Requerimiento_Tests

@@ -1,4 +1,4 @@
-﻿namespace ComoObjetos
+﻿namespace ConObjetos
 {
     public class NumeroDeCuentaIban
     {
