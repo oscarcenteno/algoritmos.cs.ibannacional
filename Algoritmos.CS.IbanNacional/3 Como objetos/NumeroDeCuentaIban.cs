@@ -1,24 +1,21 @@
 ﻿namespace ComoObjetos
 {
-    public class CuentaIban
+    public class NumeroDeCuentaIban
     {
         private string laCuentaCliente;
         private string losDosDigitosVerificadores;
 
-        public CuentaIban(string laCuentaCliente)
+        public NumeroDeCuentaIban(string laCuentaCliente)
         {
             losDosDigitosVerificadores = new DigitosVerificadores(laCuentaCliente).ComoTexto();
             this.laCuentaCliente = laCuentaCliente;
         }
 
-        public string Numero
+        public string ComoTexto()
         {
-            get
-            {
-                const string lasInicialesDelPais = "CR";
+            const string lasInicialesDelPais = "CR";
 
-                return lasInicialesDelPais + losDosDigitosVerificadores + laCuentaCliente;
-            }
+            return lasInicialesDelPais + losDosDigitosVerificadores + laCuentaCliente;
         }
     }
 }

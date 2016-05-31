@@ -9,7 +9,7 @@ namespace ConFunciones
         private string elResultadoObtenido;
 
         [TestMethod()]
-        public void GenereElNumeroDeCuenta_GeneraDosDigitos_LosMismosDigitos()
+        public void GenereElNumeroDeCuenta__NumeroVerificadorEsDiez_NoSePrecedeConCero()
         {
             elResultadoEsperado = "CR1010200009007408120";
 
@@ -19,7 +19,7 @@ namespace ConFunciones
         }
 
         [TestMethod()]
-        public void GenereElNumeroDeCuenta_GeneraUnDigito_SeAjustaADos()
+        public void GenereElNumeroDeCuenta_NumeroVerificadorEsMenorADiez_SePrecedeConCero()
         {
             elResultadoEsperado = "CR0910000073919007800";
 

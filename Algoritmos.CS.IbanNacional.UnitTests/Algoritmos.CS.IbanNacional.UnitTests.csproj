@@ -55,7 +55,7 @@
     <Compile Include="1 Como un procedimiento\CalculosDeCuentasIban\GenereElNumeroDeCuenta_Tests.cs" />
     <Compile Include="2 Con funciones\CalculosDeCuentasIban\GenereElNumeroDeCuenta_Tests.cs" />
     <Compile Include="3 Como objetos\DigitosVerificadores\ComoDosDigitos_Tests.cs" />
-    <Compile Include="3 Como objetos\CuentaIban\Numero_Tests.cs" />
+    <Compile Include="3 Como objetos\NumeroDeCuentaIban\ComoTexto_Tests.cs" />
     <Compile Include="3 Como objetos\NumeroVerificador\ComoNumero_Tests.cs" />
     <Compile Include="3 Como objetos\Requerimiento\ComoNumero_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

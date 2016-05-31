@@ -8,21 +8,21 @@ public class ComoDosDigitos_Tests
     private string elResultadoObtenido;
 
     [TestMethod()]
-    public void ComoDosDigitos_GeneraUnDigito_SeAjustaADos()
+    public void ComoDosDigitos_NumeroVerificadorEsDiez_NoSePrecedeConCero()
     {
-        elResultadoEsperado = "09";
+        elResultadoEsperado = "10";
 
-        elResultadoObtenido = new DigitosVerificadores("10000073919007800").ComoTexto();
+        elResultadoObtenido = new DigitosVerificadores("10200009007408120").ComoTexto();
 
         Assert.AreEqual(elResultadoEsperado, elResultadoObtenido);
     }
 
     [TestMethod()]
-    public void ComoDosDigitos_GeneraDosDigitos_LosMismosDigitos()
+    public void ComoDosDigitos_NumeroVerificadorEsMenorADiez_SePrecedeConCero()
     {
-        elResultadoEsperado = "10";
+        elResultadoEsperado = "09";
 
-        elResultadoObtenido = new DigitosVerificadores("10200009007408120").ComoTexto();
+        elResultadoObtenido = new DigitosVerificadores("10000073919007800").ComoTexto();
 
         Assert.AreEqual(elResultadoEsperado, elResultadoObtenido);
     }

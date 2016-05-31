@@ -43,7 +43,7 @@
     <Compile Include="1 Como un procedimiento\CalculosDeCuentasIban.cs" />
     <Compile Include="2 Con funciones\CalculosDeCuentasIban.cs" />
     <Compile Include="3 Como objetos\DigitosVerificadores.cs" />
-    <Compile Include="3 Como objetos\CuentaIban.cs" />
+    <Compile Include="3 Como objetos\NumeroDeCuentaIban.cs" />
     <Compile Include="3 Como objetos\NumeroVerificador.cs" />
     <Compile Include="3 Como objetos\Requerimiento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
