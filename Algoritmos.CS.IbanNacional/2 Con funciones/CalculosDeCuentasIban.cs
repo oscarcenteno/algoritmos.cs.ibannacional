@@ -34,17 +34,17 @@
             return ConviertaADecimal(elRequerimiento);
         }
 
-        private static decimal ConviertaADecimal(string elRequerimiento)
-        {
-            return decimal.Parse(elRequerimiento);
-        }
-
         private static string FormateeElRequerimiento(string laCuentaCliente)
         {
             const string elCodigoDelPais = "00";
             const string elNumeroISODelPais = "1227";
 
             return laCuentaCliente + elNumeroISODelPais + elCodigoDelPais;
+        }
+
+        private static decimal ConviertaADecimal(string elRequerimiento)
+        {
+            return decimal.Parse(elRequerimiento);
         }
 
         private static decimal CalculeElNumeroVerificador(decimal elRequerimiento)
