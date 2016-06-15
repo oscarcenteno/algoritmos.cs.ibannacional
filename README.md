@@ -8,15 +8,3 @@ Descargue el código y ejecute build.bat que compilará el código y ejecutará 
 
 ## Explicaciones
 Este código fuente se usa para explicar tres pasos que nos ayudan a crear algoritmos mantenibles en http://www.softwaremantenible.com.
-
-### Como un procedimiento
-https://softwaremantenible.com/2016/05/16/como-un-procedimiento/
-
-### Con funciones
-https://softwaremantenible.com/2016/05/24/con-funciones/
-
-### Con objetos
-[pendiente]
-
-## Videos instructivos
-Los videos que acompañan al código fuente: https://softwaremantenible.com/2016/05/23/ejemplo-iban-nacional/
